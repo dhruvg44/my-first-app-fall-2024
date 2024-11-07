@@ -31,12 +31,6 @@ ALPHAVANTAGE_API_KEY="..."
 
 ## Usage
 
-Run the example script:
-
-```sh
-python app/my_script.py
-```
-
 Run the unemployment report:
 
 ```sh

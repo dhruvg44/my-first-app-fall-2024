@@ -20,7 +20,7 @@ print("SYMBOL:", symbol)
 from pandas import read_csv
 
 request_url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol={symbol}&apikey={API_KEY}&outputsize=full&datatype=csv"
-print(request_url)
+
 df = read_csv(request_url)
 
 print(df.columns)
